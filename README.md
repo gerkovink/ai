@@ -2,7 +2,7 @@ This is an repository holding resource for the generative AI developments in hig
 
 No parts of this repository have been generated with AI, with the exception of the following fun image of an ai that is surprised by the efficiency of humans [source](/img/dall-e_generation.png).
 
-![](/img/dall-e.webp | width=30)
+<img src="/img/dall-e.webp" width="300")
 
 Feel free to contribute. See [this section in the book](https://www.gerkovink.com/ai/intro.html#contributions) for contributor instructions.
 
