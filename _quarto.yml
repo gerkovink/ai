@@ -1,24 +1,26 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "AI developments in higher education"
   author:
     - name: "Gerko Vink"
       orcid: "0000-0001-9767-1924"
-  date: "3/22/2024"
+  date: last-modified
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
     - references.qmd
   repo-url: https://github.com/gerkovink/ai
+  repo-branch: dev
   repo-actions: [edit, issue]
 
 bibliography: references.bib
 
 format:
   html:
+    toc-depth: 3
     theme: cosmo
   pdf:
     documentclass: scrreprt
