@@ -2,7 +2,7 @@ This is an archive of the generative AI developments in higher education that I 
 
 No parts of this resource have been generated with AI, with the exception of the following fun [image of an ai that is surprised by the efficiency of humans](/img/dall-e_generation.png).
 
-![](dall-e.webp)
+![](/img/dall-e.webp)
 
 Feel free to contribute.
 
