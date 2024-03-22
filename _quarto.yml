@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "AI developments in higher education"
+  author:
+    - name: "Gerko Vink"
+      orcid: "0000-0001-9767-1924"
+  date: "3/22/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+  repo-url: https://github.com/gerkovink/ai
+  repo-actions: [edit, issue]
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
