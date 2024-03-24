@@ -1,0 +1,16 @@
+# Legal implications {#sec-legal}
+
+## How to read this chapter
+
+## Data protection and privacy
+
+## Intellectual property
+
+## Copyright
+
+## Europe's AI act
+
+## Ethics
+Perhaps this should be its own chapter and not a subheading under @sec-legal. 
+
+
