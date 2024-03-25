@@ -124,7 +124,7 @@
     "href": "links.html",
     "title": "9  Collection of links",
     "section": "",
-    "text": "9.1 Assessment given the existence of AI tools\nSome links (in no particular order) that cover relevant strategies on how to assess student work, given the existence of AI tools.",
+    "text": "9.1 Responsibility and conscience",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
     ]
@@ -133,8 +133,8 @@
     "objectID": "links.html#assessment-given-the-existence-of-ai-tools",
     "href": "links.html#assessment-given-the-existence-of-ai-tools",
     "title": "9  Collection of links",
-    "section": "",
-    "text": "UCL: Designing assessments in and AI enabled world\nUNF: ChatGPT-proof your course\nUU: Can you still use take-home exams and essays?\nBower, M., Torrington, J., Lai, J.W.M. et al. (2024) How should we change teaching and assessment in response to increasingly powerful generative Artificial Intelligence? Outcomes of the ChatGPT teacher survey. Educ Inf Technol.\nTILAPIA tool by Phil Newton & ChatGPT\n\n\n9.1.1 Scientific publications\n\nDo teachers spot AI?",
+    "section": "9.2 Assessment given the existence of AI tools",
+    "text": "9.2 Assessment given the existence of AI tools\nSome links (in no particular order) that cover relevant strategies on how to assess student work, given the existence of AI tools.\n\nUCL: Designing assessments in and AI enabled world\nUNF: ChatGPT-proof your course\nUU: Can you still use take-home exams and essays?\nBower, M., Torrington, J., Lai, J.W.M. et al. (2024) How should we change teaching and assessment in response to increasingly powerful generative Artificial Intelligence? Outcomes of the ChatGPT teacher survey. Educ Inf Technol.\nTILAPIA tool by Phil Newton & ChatGPT\n\n\n9.2.1 Scientific publications\n\nDo teachers spot AI?",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
     ]
@@ -143,8 +143,8 @@
     "objectID": "links.html#policy",
     "href": "links.html#policy",
     "title": "9  Collection of links",
-    "section": "9.2 Policy",
-    "text": "9.2 Policy\n\n9.2.1 Guidelines for students\n\nUMCU: Guidelines for GSLS students\nUMCU: GenAI guidelines for research projects for students and supervisors\n\n\n\n9.2.2 Guidelines for teachers\n\nUMCU: Guidelines for Incorporating Generative AI (GenAI) in GSLS Education\n\n\n\n9.2.3 Academic policies\n\nColumbia University",
+    "section": "9.3 Policy",
+    "text": "9.3 Policy\n\n9.3.1 Guidelines for students\n\nUMCU: Guidelines for GSLS students\nUMCU: GenAI guidelines for research projects for students and supervisors\n\n\n\n9.3.2 Guidelines for teachers\n\nUMCU: Guidelines for Incorporating Generative AI (GenAI) in GSLS Education\n\n\n\n9.3.3 Academic policies\n\nColumbia University",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
     ]
@@ -153,8 +153,8 @@
     "objectID": "links.html#ai-skills",
     "href": "links.html#ai-skills",
     "title": "9  Collection of links",
-    "section": "9.3 AI skills",
-    "text": "9.3 AI skills\n\nUMCU: AI skills tutorial for GSLS master students\nUMCU: AI skills tutorial for GSLS master teachers",
+    "section": "9.4 AI skills",
+    "text": "9.4 AI skills\n\nUMCU: AI skills tutorial for GSLS master students\nUMCU: AI skills tutorial for GSLS master teachers",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
     ]
@@ -163,8 +163,8 @@
     "objectID": "links.html#ai-for-grading-student-work",
     "href": "links.html#ai-for-grading-student-work",
     "title": "9  Collection of links",
-    "section": "9.4 ## AI for grading student work",
-    "text": "9.4 ## AI for grading student work",
+    "section": "9.5 ## AI for grading student work",
+    "text": "9.5 ## AI for grading student work",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
     ]
@@ -207,6 +207,16 @@
     "text": "For now, see Chapter 9.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Grading and Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "links.html#responsibility-and-conscience",
+    "href": "links.html#responsibility-and-conscience",
+    "title": "9  Collection of links",
+    "section": "",
+    "text": "There is evidence that the workers who curate these models are treated unfairly or even inhumanely by their employers. This interview from March 25 also outlines how and where AI moderation can harm the people who don’t have a voice.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
     ]
   }
 ]
