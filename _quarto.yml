@@ -19,6 +19,7 @@ book:
     - teachers.qmd
     - assessment.qmd
     - references.qmd
+    - links.qmd
   repo-url: https://github.com/gerkovink/ai
   repo-branch: dev
   repo-actions: [edit, issue]
