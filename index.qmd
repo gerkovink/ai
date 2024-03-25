@@ -9,3 +9,5 @@ Feel free to contribute.
 All the best, 
 
 [Gerko](https://www.gerkovink.com)
+
+![](https://zenodo.org/badge/DOI/10.5281/zenodo.10867539.svg)

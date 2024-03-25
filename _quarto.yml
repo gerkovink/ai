@@ -8,6 +8,7 @@ book:
     - name: "Gerko Vink"
       orcid: "0000-0001-9767-1924"
   date: last-modified
+  doi: "10.5281/zenodo.10867539"
   chapters:
     - index.qmd
     - intro.qmd
