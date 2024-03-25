@@ -1,0 +1,34 @@
+# Collection of links {#sec-links}
+This is where I collect all the links that I come across. You can see this as a work in progress. Some links will become part of the previous chapters, while other links will remain here. Please regard this as a roughly structured library of relevant resources. 
+
+## Assessment given the existence of AI tools
+Some links (in no particular order) that cover relevant strategies on how to assess student work, given the existence of AI tools.
+
+- [UCL: Designing assessments in and AI enabled world](https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/designing-assessments-ai-enabled-world)
+- [UNF: ChatGPT-proof your course](https://unf.pressbooks.pub/chatgptinhighereducation/chapter/chatgpt-proof-your-course/)
+- [UU: Can you still use take-home exams and essays?](https://www.uu.nl/en/education/educational-development-training/knowledge-dossier/the-influence-of-chatgpt-on-assessment-can-you-still-use-take-home-exams-and-essays)
+- [Bower, M., Torrington, J., Lai, J.W.M. et al. (2024) How should we change teaching and assessment in response to increasingly powerful generative Artificial Intelligence? Outcomes of the ChatGPT teacher survey. Educ Inf Technol.](https://link.springer.com/article/10.1007/s10639-023-12405-0)
+- [TILAPIA tool by Phil Newton & ChatGPT](https://www.dropbox.com/scl/fi/a0knbe4l5vdmpr9l2xsox/AI-resilience-tool-v3.0.png?rlkey=ih87d4jh5lqu9l69ygr44s2se&dl=0)
+
+### Scientific publications
+- [Do teachers spot AI?](https://www.sciencedirect.com/science/article/pii/S2666920X24000109?dgcid=raven_sd_aip_email)
+
+## Policy
+
+### Guidelines for students
+- [UMCU: Guidelines for GSLS students](https://students.uu.nl/en/gsls/practical-information/generative-ai-guidelines)
+- [UMCU: GenAI guidelines for research projects for students and supervisors](https://students.uu.nl/sites/default/files/GSLS%20GenAI%20Research%20Guidelines%20for%20Students%20and%20SupervisorsGSLS%20GenAI%20Research%20Guidelines.pdf)
+
+### Guidelines for teachers
+- [UMCU: Guidelines for Incorporating Generative AI (GenAI) in GSLS Education](https://teachersguidegsls.nl/teaching-courses/generative-ai-guidelines/)
+
+### Academic policies
+- [Columbia University](https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy)
+
+## AI skills
+- [UMCU: AI skills tutorial for GSLS master students](https://ulearning.uu.nl/enrol/index.php?id=1462)
+- [UMCU: AI skills tutorial for GSLS master teachers](https://ulearning.uu.nl/enrol/index.php?id=1598)
+
+
+## AI for grading student work
+- 
