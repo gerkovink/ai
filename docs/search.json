@@ -54,7 +54,7 @@
     "href": "legal.html#ethics",
     "title": "3  Legal implications",
     "section": "3.6 Ethics",
-    "text": "3.6 Ethics\nPerhaps this should be its own chapter and not a subheading under Chapter 3.",
+    "text": "3.6 Ethics\nPerhaps this should be its own chapter and not a subheading under sec-legal.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Legal implications</span>"
     ]
@@ -97,6 +97,116 @@
     "text": "3.5 Europe’s AI act",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Legal implications</span>"
+    ]
+  },
+  {
+    "objectID": "models.html",
+    "href": "models.html",
+    "title": "2  How genAI tools work",
+    "section": "",
+    "text": "2.1 Machine learning basics\nMachine learning enables computers to learn from data, identify patterns, and make decisions with varying levels of human intervention. For understanding this chapter, it is important to realize that some machine learning methods require quite strict human intervention or data pre-processing, while other methods can operate unsupervised and without stringent data pre-processing.\nIt is also important to understand that machine learning methods often work by means of training. An algorithm is trained to perform a single task or set of tasks. For example, a machine learning model can be trained on thousands of images to differentiate between photos of children or adults. Much like our own brain would learn to differentiate between such images.\nThe domain of machine learning that focuses on such human brain-like deep learning strategies is called neural networks (NNs). NNs consist of layers of units (so called neurons) that process input data. NNs are not specifically programmed to perform tasks, yet NNs process data in such a way that they autonomously learn to perform those tasks.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How genAI tools work</span>"
+    ]
+  },
+  {
+    "objectID": "models.html#transformers",
+    "href": "models.html#transformers",
+    "title": "2  How genAI tools work",
+    "section": "2.2 Transformers",
+    "text": "2.2 Transformers\nTransformers (Vaswani et al. 2017) are a type of neural network that have advanced deep learning, particularly in the domain of natural language processing. Instead of modeling words one after another, transformers can look at whole sentences or paragraphs at once and take the context of text into account. It is not hard to imagine that contextual understanding allows for better learning and more flexible applications.\nGenerative AI tools, such as Gemini, chatGPT or GitHub Copilot are applications of transformers. These tools have been trained on extremely large amounts of data (mostly text) and have learned from the structure, meaning and nuances of the language. After training, these tools can generate new text that both coherent an contextually relevant. All this generation is based on the patterns the transformers learned during training.\nThere is a bit more nuance to the above two paragraph than I would initially have you believe. First, there are two mechanisms crucial in a transformer’s ability to understand the nuance and context of language: attention and self-attention. In a nutshell, these mechanisms allow the transformer to weigh the importance of words in the context, which creates a measure of the immediate and broader relations of each word. Second, the training step is far more complex than described above. There is a lot of fine-tuning involved. Additionally, for different purposes like programming code generation or visual image recognition, models must undergo additional training or finetuning with specific data sets. This makes the training of contemporary AI tools a time-consuming and human-curated task.\nContemporary AI tools can do much more than predict the next most likely word based on a given prompt or initial input. Modern AI tools can interpret images, read and solve mathematical formulae, start up virtual machines to autonomously evaluate self-generated computer code, and much more. Given the relatively recent introduction of transformers, this seamless integration of applications, skills and tasks is an impressive development.\n\n\n\n\nVaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017. “Attention Is All You Need.” Advances in Neural Information Processing Systems 30.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How genAI tools work</span>"
+    ]
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "9  Collection of links",
+    "section": "",
+    "text": "9.1 Assessment given the existence of AI tools\nSome links (in no particular order) that cover relevant strategies on how to assess student work, given the existence of AI tools.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
+    ]
+  },
+  {
+    "objectID": "links.html#assessment-given-the-existence-of-ai-tools",
+    "href": "links.html#assessment-given-the-existence-of-ai-tools",
+    "title": "9  Collection of links",
+    "section": "",
+    "text": "UCL: Designing assessments in and AI enabled world\nUNF: ChatGPT-proof your course\nUU: Can you still use take-home exams and essays?\nBower, M., Torrington, J., Lai, J.W.M. et al. (2024) How should we change teaching and assessment in response to increasingly powerful generative Artificial Intelligence? Outcomes of the ChatGPT teacher survey. Educ Inf Technol.\nTILAPIA tool by Phil Newton & ChatGPT\n\n\n9.1.1 Scientific publications\n\nDo teachers spot AI?",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
+    ]
+  },
+  {
+    "objectID": "links.html#policy",
+    "href": "links.html#policy",
+    "title": "9  Collection of links",
+    "section": "9.2 Policy",
+    "text": "9.2 Policy\n\n9.2.1 Guidelines for students\n\nUMCU: Guidelines for GSLS students\nUMCU: GenAI guidelines for research projects for students and supervisors\n\n\n\n9.2.2 Guidelines for teachers\n\nUMCU: Guidelines for Incorporating Generative AI (GenAI) in GSLS Education\n\n\n\n9.2.3 Academic policies\n\nColumbia University",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
+    ]
+  },
+  {
+    "objectID": "links.html#ai-skills",
+    "href": "links.html#ai-skills",
+    "title": "9  Collection of links",
+    "section": "9.3 AI skills",
+    "text": "9.3 AI skills\n\nUMCU: AI skills tutorial for GSLS master students\nUMCU: AI skills tutorial for GSLS master teachers",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
+    ]
+  },
+  {
+    "objectID": "links.html#ai-for-grading-student-work",
+    "href": "links.html#ai-for-grading-student-work",
+    "title": "9  Collection of links",
+    "section": "9.4 ## AI for grading student work",
+    "text": "9.4 ## AI for grading student work",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
+    ]
+  },
+  {
+    "objectID": "teachers.html",
+    "href": "teachers.html",
+    "title": "7  For teachers",
+    "section": "",
+    "text": "For now, see Chapter 9.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>For teachers</span>"
+    ]
+  },
+  {
+    "objectID": "students.html",
+    "href": "students.html",
+    "title": "6  For students",
+    "section": "",
+    "text": "For now, see Chapter 9.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>For students</span>"
+    ]
+  },
+  {
+    "objectID": "policy.html",
+    "href": "policy.html",
+    "title": "4  Policy",
+    "section": "",
+    "text": "For now, see Chapter 9.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Policy</span>"
+    ]
+  },
+  {
+    "objectID": "assessment.html",
+    "href": "assessment.html",
+    "title": "8  Grading and Assessment",
+    "section": "",
+    "text": "For now, see Chapter 9.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Grading and Assessment</span>"
     ]
   }
 ]
