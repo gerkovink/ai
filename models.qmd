@@ -1,1 +1,19 @@
-# How genAI models work
+# How genAI tools work
+
+Most of us are familiar with the user side of tools like chatGPT, Gemini and GitHub Copilot. But before we continue, it is also important to have an idea about the underlying models. In this section, I will give a very short introduction about how chatAI tools come about the response given. 
+
+## Machine learning basics
+Machine learning enables computers to learn from data, identify patterns, and make decisions with varying levels of human intervention. For understanding this chapter, it is important to realize that some machine learning methods require quite strict human intervention or data pre-processing, while other methods can operate unsupervised and without  stringent data pre-processing. 
+
+It is also important to understand that machine learning methods often work by means of *training*. An algorithm is trained to perform a single task or set of tasks. For example, a machine learning model can be trained on thousands of images to differentiate between photos of children or adults. Much like our own brain would learn to differentiate between such images. 
+
+The domain of machine learning that focuses on such human brain-like *deep learning* strategies is called *neural networks* (NNs). NNs consist of layers of units (so called neurons) that process input data. NNs are not specifically programmed to perform tasks, yet NNs process data in such a way that they autonomously learn to perform those tasks. 
+
+## Transformers
+**Transformers** [@vaswani] are a type of neural network that have advanced deep learning, particularly in the domain of *natural language processing*. Instead of modeling words one after another, transformers can look at whole sentences or paragraphs at once and take the context of text into account. It is not hard to imagine that contextual *understanding* allows for better learning and more flexible applications. 
+
+Generative AI tools, such as Gemini, chatGPT or GitHub Copilot are applications of transformers. These tools have been trained on extremely large amounts of data (mostly text) and have learned from the structure, meaning and nuances of the language. After training, these tools can generate new text that both coherent an contextually relevant. All this generation is based on the patterns the transformers learned during training. 
+
+There is a bit more nuance to the above two paragraph than I would initially have you believe. First, there are two mechanisms crucial in a transformer's ability to understand the nuance and context of language: attention and self-attention. In a nutshell, these mechanisms allow the transformer to weigh the importance of words in the context, which creates a measure of the immediate and broader relations of each word. Second, the training step is far more complex than described above. There is a lot of fine-tuning involved. Additionally, for different purposes like programming code generation or visual image recognition, models must undergo additional training or finetuning with specific data sets. This makes the training of contemporary AI tools a time-consuming and human-curated task. 
+
+Contemporary AI tools can do much more than predict the next most likely word based on a given prompt or initial input. Modern AI tools can interpret images, read and solve mathematical formulae, start up virtual machines to autonomously evaluate self-generated computer code, and much more. Given the relatively recent introduction of transformers, this seamless integration of applications, skills and tasks is an impressive development.
