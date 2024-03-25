@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "AI developments in higher education",
     "section": "",
-    "text": "Preface\nThis is an archive of the generative AI developments in higher education that I have come across. The main aim of this archive is to create a structured overview of developments, policies and studies on implementing and regulating AI in higher education.\nNo parts of this resource have been generated with AI.\nFeel free to contribute.\nAll the best,\nGerko",
+    "text": "Preface\nThis is an archive of the generative AI developments in higher education that I have come across. The main aim of this archive is to create a structured overview of developments, policies and studies on implementing and regulating AI in higher education.\nNo parts of this resource have been generated with AI. All parts of this resource may be used and shared freely, also within AI tools, with the exception of model training. Do not use this resource for further training of generative AI models.\nFeel free to contribute.\nAll the best,\nGerko",
     "crumbs": [
       "Preface"
     ]
@@ -24,7 +24,7 @@
     "href": "intro.html#contributions",
     "title": "1  Introduction",
     "section": "1.2 Contributions",
-    "text": "1.2 Contributions\nI very much welcome contributions to this page. If you have come across a development, policy or study that is not yet included in this archive, please let me know, or rather, add it yourself. Follow the below outline to see how easy it is to propose changes and additions to this archive.\n I do ask you, however, to not generate your contributed text with AI. I prefer this resources to remain a human-curated archive.\n\n\n\n\nTuring, Alan. 2004. “Lecture on the Automatic Computing Engine (1947).” In The Essential Turing. Oxford University Press. https://doi.org/10.1093/oso/9780198250791.003.0015.",
+    "text": "1.2 Contributions\nI very much welcome contributions to this page. If you have come across a development, policy or study that is not yet included in this archive, please let me know, or rather, add it yourself. Follow the below outline to see how easy it is to propose changes and additions to this archive.\n\n\n\nExample change commit and pull request\n\n\nI do ask you, however, to not generate your contributed text with AI. I prefer this resources to remain a human-curated archive.\n\n\n\n\nTuring, Alan. 2004. “Lecture on the Automatic Computing Engine (1947).” In The Essential Turing. Oxford University Press. https://doi.org/10.1093/oso/9780198250791.003.0015.\n\n\nWeizenbaum, Joseph. 1966. “ELIZA—a Computer Program for the Study of Natural Language Communication Between Man and Machine.” Commun. ACM 9 (1): 36–45. https://doi.org/10.1145/365153.365168.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -37,6 +37,176 @@
     "text": "Turing, Alan. 2004. “Lecture on the Automatic\nComputing Engine (1947).” In The Essential\nTuring. Oxford University Press. https://doi.org/10.1093/oso/9780198250791.003.0015.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "legal.html",
+    "href": "legal.html",
+    "title": "3  Legal implications",
+    "section": "",
+    "text": "3.1 How to read this chapter",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Legal implications</span>"
+    ]
+  },
+  {
+    "objectID": "legal.html#ethics",
+    "href": "legal.html#ethics",
+    "title": "3  Legal implications",
+    "section": "3.6 Ethics",
+    "text": "3.6 Ethics\nPerhaps this should be its own chapter and not a subheading under sec-legal.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Legal implications</span>"
+    ]
+  },
+  {
+    "objectID": "legal.html#data-protection-and-privacy",
+    "href": "legal.html#data-protection-and-privacy",
+    "title": "3  Legal implications",
+    "section": "3.2 Data protection and privacy",
+    "text": "3.2 Data protection and privacy",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Legal implications</span>"
+    ]
+  },
+  {
+    "objectID": "legal.html#intellectual-property",
+    "href": "legal.html#intellectual-property",
+    "title": "3  Legal implications",
+    "section": "3.3 Intellectual property",
+    "text": "3.3 Intellectual property",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Legal implications</span>"
+    ]
+  },
+  {
+    "objectID": "legal.html#copyright",
+    "href": "legal.html#copyright",
+    "title": "3  Legal implications",
+    "section": "3.4 Copyright",
+    "text": "3.4 Copyright",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Legal implications</span>"
+    ]
+  },
+  {
+    "objectID": "legal.html#europes-ai-act",
+    "href": "legal.html#europes-ai-act",
+    "title": "3  Legal implications",
+    "section": "3.5 Europe’s AI act",
+    "text": "3.5 Europe’s AI act",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Legal implications</span>"
+    ]
+  },
+  {
+    "objectID": "models.html",
+    "href": "models.html",
+    "title": "2  How genAI tools work",
+    "section": "",
+    "text": "2.1 Machine learning basics\nMachine learning enables computers to learn from data, identify patterns, and make decisions with varying levels of human intervention. For understanding this chapter, it is important to realize that some machine learning methods require quite strict human intervention or data pre-processing, while other methods can operate unsupervised and without stringent data pre-processing.\nIt is also important to understand that machine learning methods often work by means of training. An algorithm is trained to perform a single task or set of tasks. For example, a machine learning model can be trained on thousands of images to differentiate between photos of children or adults. Much like our own brain would learn to differentiate between such images.\nThe domain of machine learning that focuses on such human brain-like deep learning strategies is called neural networks (NNs). NNs consist of layers of units (so called neurons) that process input data. NNs are not specifically programmed to perform tasks, yet NNs process data in such a way that they autonomously learn to perform those tasks.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How genAI tools work</span>"
+    ]
+  },
+  {
+    "objectID": "models.html#transformers",
+    "href": "models.html#transformers",
+    "title": "2  How genAI tools work",
+    "section": "2.2 Transformers",
+    "text": "2.2 Transformers\nTransformers (Vaswani et al. 2017) are a type of neural network that have advanced deep learning, particularly in the domain of natural language processing. Instead of modeling words one after another, transformers can look at whole sentences or paragraphs at once and take the context of text into account. It is not hard to imagine that contextual understanding allows for better learning and more flexible applications.\nGenerative AI tools, such as Gemini, chatGPT or GitHub Copilot are applications of transformers. These tools have been trained on extremely large amounts of data (mostly text) and have learned from the structure, meaning and nuances of the language. After training, these tools can generate new text that both coherent an contextually relevant. All this generation is based on the patterns the transformers learned during training.\nThere is a bit more nuance to the above two paragraph than I would initially have you believe. First, there are two mechanisms crucial in a transformer’s ability to understand the nuance and context of language: attention and self-attention. In a nutshell, these mechanisms allow the transformer to weigh the importance of words in the context, which creates a measure of the immediate and broader relations of each word. Second, the training step is far more complex than described above. There is a lot of fine-tuning involved. Additionally, for different purposes like programming code generation or visual image recognition, models must undergo additional training or finetuning with specific data sets. This makes the training of contemporary AI tools a time-consuming and human-curated task.\nContemporary AI tools can do much more than predict the next most likely word based on a given prompt or initial input. Modern AI tools can interpret images, read and solve mathematical formulae, start up virtual machines to autonomously evaluate self-generated computer code, and much more. Given the relatively recent introduction of transformers, this seamless integration of applications, skills and tasks is an impressive development.\n\n\n\n\nVaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017. “Attention Is All You Need.” Advances in Neural Information Processing Systems 30.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How genAI tools work</span>"
+    ]
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "9  Collection of links",
+    "section": "",
+    "text": "9.1 Assessment given the existence of AI tools\nSome links (in no particular order) that cover relevant strategies on how to assess student work, given the existence of AI tools.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
+    ]
+  },
+  {
+    "objectID": "links.html#assessment-given-the-existence-of-ai-tools",
+    "href": "links.html#assessment-given-the-existence-of-ai-tools",
+    "title": "9  Collection of links",
+    "section": "",
+    "text": "UCL: Designing assessments in and AI enabled world\nUNF: ChatGPT-proof your course\nUU: Can you still use take-home exams and essays?\nBower, M., Torrington, J., Lai, J.W.M. et al. (2024) How should we change teaching and assessment in response to increasingly powerful generative Artificial Intelligence? Outcomes of the ChatGPT teacher survey. Educ Inf Technol.\nTILAPIA tool by Phil Newton & ChatGPT\n\n\n9.1.1 Scientific publications\n\nDo teachers spot AI?",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
+    ]
+  },
+  {
+    "objectID": "links.html#policy",
+    "href": "links.html#policy",
+    "title": "9  Collection of links",
+    "section": "9.2 Policy",
+    "text": "9.2 Policy\n\n9.2.1 Guidelines for students\n\nUMCU: Guidelines for GSLS students\nUMCU: GenAI guidelines for research projects for students and supervisors\n\n\n\n9.2.2 Guidelines for teachers\n\nUMCU: Guidelines for Incorporating Generative AI (GenAI) in GSLS Education\n\n\n\n9.2.3 Academic policies\n\nColumbia University",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
+    ]
+  },
+  {
+    "objectID": "links.html#ai-skills",
+    "href": "links.html#ai-skills",
+    "title": "9  Collection of links",
+    "section": "9.3 AI skills",
+    "text": "9.3 AI skills\n\nUMCU: AI skills tutorial for GSLS master students\nUMCU: AI skills tutorial for GSLS master teachers",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
+    ]
+  },
+  {
+    "objectID": "links.html#ai-for-grading-student-work",
+    "href": "links.html#ai-for-grading-student-work",
+    "title": "9  Collection of links",
+    "section": "9.4 ## AI for grading student work",
+    "text": "9.4 ## AI for grading student work",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Collection of links</span>"
+    ]
+  },
+  {
+    "objectID": "teachers.html",
+    "href": "teachers.html",
+    "title": "7  For teachers",
+    "section": "",
+    "text": "For now, see Chapter 9.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>For teachers</span>"
+    ]
+  },
+  {
+    "objectID": "students.html",
+    "href": "students.html",
+    "title": "6  For students",
+    "section": "",
+    "text": "For now, see Chapter 9.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>For students</span>"
+    ]
+  },
+  {
+    "objectID": "policy.html",
+    "href": "policy.html",
+    "title": "4  Policy",
+    "section": "",
+    "text": "For now, see Chapter 9.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Policy</span>"
+    ]
+  },
+  {
+    "objectID": "assessment.html",
+    "href": "assessment.html",
+    "title": "8  Grading and Assessment",
+    "section": "",
+    "text": "For now, see Chapter 9.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Grading and Assessment</span>"
     ]
   }
 ]

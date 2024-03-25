@@ -11,7 +11,15 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - models.qmd
+    - legal.qmd
+    - policy.qmd
+    - skills.qmd
+    - students.qmd
+    - teachers.qmd
+    - assessment.qmd
     - references.qmd
+    - links.qmd
   repo-url: https://github.com/gerkovink/ai
   repo-branch: dev
   repo-actions: [edit, issue]
