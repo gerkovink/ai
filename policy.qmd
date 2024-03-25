@@ -1,2 +1,4 @@
 # Policy
 
+For now, see @sec-links.
+
