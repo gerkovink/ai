@@ -1,6 +1,9 @@
 # Collection of links {#sec-links}
 This is where I collect all the links that I come across. You can see this as a work in progress. Some links will become part of the previous chapters, while other links will remain here. Please regard this as a roughly structured library of relevant resources. 
 
+## Responsibility and conscience
+- There is [evidence](https://time.com/6247678/openai-chatgpt-kenya-workers/) that the workers who curate these models are treated unfairly or even inhumanely by their employers. This [interview from March 25](https://blogs.lse.ac.uk/businessreview/2024/03/25/madhumita-murgia-ai-can-do-harm-when-people-dont-have-a-voice/) also outlines how and where AI moderation can harm the people who don't have a voice.
+
 ## Assessment given the existence of AI tools
 Some links (in no particular order) that cover relevant strategies on how to assess student work, given the existence of AI tools.
 
@@ -32,3 +35,4 @@ Some links (in no particular order) that cover relevant strategies on how to ass
 
 ## AI for grading student work
 - 
+
