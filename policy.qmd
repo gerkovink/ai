@@ -8,7 +8,7 @@ The following policy suggestion ensures that generative AI is implemented in an 
 
 **_Suggestion 1:_ Minimize the use of AI tools** as they are (currently) environmentally unfriendly
 
-Many users are unaware of the impact that contemporary AI tools may have on the environment. Together with e.g. cloud storage and e-mail traffic, AI tools constitute a *hidden carbon footprint* that often escapes our awareness. While it is not as apparent as airline travel, the impact of using AI tools may be far greater than you think @REFS. While the environmental impact may be significantly lowered by on-chip generative AI , there will allways be a cost of using AI tools. Many people have thought about how AI will impact human life and Hollywood has monetized its threat to human existence. Not many may have realized that our lives may be at risk through AI-induced global warming. 
+Many users are unaware of the impact that contemporary AI tools may have on the environment. Together with e.g. cloud storage and e-mail traffic, AI tools constitute a *hidden carbon footprint* that often escapes our awareness. While it is not as apparent as airline travel, the impact of using AI tools may be far greater than you think [@berthelot2023; ]. While the environmental impact may be significantly lowered by on-chip generative AI , there will always be a cost of using AI tools. Many people have thought about how AI will impact human life and Hollywood has monetized its threat to human existence. Not many may have realized that our lives may be at risk through AI-induced global warming. 
 
 **_Suggestion 2:_ Don't input confidential or personal information**
 
@@ -29,7 +29,7 @@ This is a tricky scenario, as the nontransparent training of AI tools makes it c
 
 **_Suggestion 5:_ Confirm the output accuracy**
 
-Never put all your eggs in one basket. AI tools have demonstrated to yield inaccurate, incomplete or false information. This can happen when the AI tool *perceives* patterns or objects that are nonexistent, resulting in nonsensical or inaccurate output, often referred to as **hallucinations**  [@ziwei, @alkaissi2023artificial, @athaluri2023exploring], although some resistance against that term has emerged [@Ostergaard2023]. It is important to always use multiple sources to verify any bit of information. As a user of AI tools you should accept that only you are responsible for using, interpreting and curating AI-generated output. 
+Never put all your eggs in one basket. AI tools have demonstrated to yield inaccurate, incomplete or false information. This can happen when the AI tool *perceives* patterns or objects that are nonexistent, resulting in nonsensical or inaccurate output, often referred to as **hallucinations** [@ziwei; @alkaissi2023artificial; @athaluri2023exploring], although some resistance against that term has emerged [@Ostergaard2023]. It is important to always use multiple sources to verify any bit of information. As a user of AI tools you should accept that only you are responsible for using, interpreting and curating AI-generated output. 
 
 **_Suggestion 6:_ Check the tool output for bias**
 
