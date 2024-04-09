@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -199,10 +219,10 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#guidelines-for-students" id="toc-guidelines-for-students" class="nav-link" data-scroll-target="#guidelines-for-students"><span class="header-section-number">10.3.1</span> Guidelines for students</a></li>
   <li><a href="#guidelines-for-teachers" id="toc-guidelines-for-teachers" class="nav-link" data-scroll-target="#guidelines-for-teachers"><span class="header-section-number">10.3.2</span> Guidelines for teachers</a></li>
-  <li><a href="#academic-policies" id="toc-academic-policies" class="nav-link" data-scroll-target="#academic-policies"><span class="header-section-number">10.3.3</span> Academic policies</a></li>
+  <li><a href="#policy-1" id="toc-policy-1" class="nav-link" data-scroll-target="#policy-1"><span class="header-section-number">10.3.3</span> Policy</a></li>
   </ul></li>
   <li><a href="#ai-skills" id="toc-ai-skills" class="nav-link" data-scroll-target="#ai-skills"><span class="header-section-number">10.4</span> AI skills</a></li>
-  <li><a href="#ai-for-grading-student-work" id="toc-ai-for-grading-student-work" class="nav-link" data-scroll-target="#ai-for-grading-student-work"><span class="header-section-number">10.5</span> ## AI for grading student work</a></li>
+  <li><a href="#ai-for-grading-student-work" id="toc-ai-for-grading-student-work" class="nav-link" data-scroll-target="#ai-for-grading-student-work"><span class="header-section-number">10.5</span> AI for grading student work</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/gerkovink/ai/edit/dev/links.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/gerkovink/ai/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -267,10 +287,14 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://teachersguidegsls.nl/teaching-courses/generative-ai-guidelines/">UMCU: Guidelines for Incorporating Generative AI (GenAI) in GSLS Education</a></li>
 </ul>
 </section>
-<section id="academic-policies" class="level3" data-number="10.3.3">
-<h3 data-number="10.3.3" class="anchored" data-anchor-id="academic-policies"><span class="header-section-number">10.3.3</span> Academic policies</h3>
+<section id="policy-1" class="level3" data-number="10.3.3">
+<h3 data-number="10.3.3" class="anchored" data-anchor-id="policy-1"><span class="header-section-number">10.3.3</span> Policy</h3>
 <ul>
+<li><a href="https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research">UNESCO: Guidance for generative AI in education and research</a></li>
+<li><a href="https://www.weforum.org/agenda/2024/01/ai-guidance-school-responsible-use-in-education/">WEF: AI Guidance for responsible use in education</a></li>
 <li><a href="https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy">Columbia University</a></li>
+<li><a href="https://learninginnovation.duke.edu/ai-and-teaching-at-duke-2/artificial-intelligence-policies-in-syllabi-guidelines-and-considerations/">Duke University</a></li>
+<li><span class="citation" data-cites="chan2023policy">(<a href="references.html#ref-chan2023policy" role="doc-biblioref">Chan 2023</a>)</span></li>
 </ul>
 </section>
 </section>
@@ -282,9 +306,21 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 <section id="ai-for-grading-student-work" class="level2" data-number="10.5">
-<h2 data-number="10.5" class="anchored" data-anchor-id="ai-for-grading-student-work"><span class="header-section-number">10.5</span> ## AI for grading student work</h2>
+<h2 data-number="10.5" class="anchored" data-anchor-id="ai-for-grading-student-work"><span class="header-section-number">10.5</span> AI for grading student work</h2>
+<ul>
+<li><a href="https://www.gerkovink.com/psy/#/title-slide">My presentation on the use and misuse of generative AI in academic education</a></li>
+<li><span class="citation" data-cites="kumar2023faculty">Kumar (<a href="references.html#ref-kumar2023faculty" role="doc-biblioref">2023</a>)</span></li>
+</ul>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-chan2023policy" class="csl-entry" role="listitem">
+Chan, Cecilia Ka Yuk. 2023. <span>“A Comprehensive AI Policy Education Framework for University Teaching and Learning.”</span> <em>International Journal of Educational Technology in Higher Education</em> 20 (1): 38.
+</div>
+<div id="ref-kumar2023faculty" class="csl-entry" role="listitem">
+Kumar, Rahul. 2023. <span>“Faculty Members’ Use of Artificial Intelligence to Grade Student Papers: A Case of Implications.”</span> <em>International Journal for Educational Integrity</em> 19 (1): 9.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
