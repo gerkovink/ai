@@ -1,0 +1,774 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{svg}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={AI developments in higher education},
+  pdfauthor={Gerko Vink},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{AI developments in higher education}
+\author{Gerko Vink}
+\date{2024-04-09}
+
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\bookmarksetup{startatroot}
+
+\chapter*{Preface}\label{preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+\markboth{Preface}{Preface}
+
+This is an archive of the generative AI developments in higher education
+that I have come across. The main aim of this archive is to create a
+structured overview of developments, policies and studies on
+implementing and regulating AI in higher education.
+
+No parts of this resource have been generated with AI. All parts of this
+resource may be used and shared freely, also within AI tools, with the
+exception of model training. Do not use this resource for further
+training of generative AI models.
+
+Feel free to contribute.
+
+All the best,
+
+\href{https://www.gerkovink.com}{Gerko}
+
+\includesvg{index_files/mediabag/zenodo.10867539.svg}
+
+\bookmarksetup{startatroot}
+
+\chapter{Introduction}\label{introduction}
+
+In the last 3 years, the development of generative artificial
+intelligence (AI) has taken a steep rise. But AI is no new idea. Ever
+sinds Alan Turing's seminal lecture on the automatic computing machine
+(Turing 2004), computer scientists have worked towards the realization
+of artificial intelligence. Even AI chatbots are not new. In 1966,Joseph
+Weizenbaum developed the \emph{psychotherapist chatbot} ELIZA
+(Weizenbaum 1966). I am not going to give an overview of the history of
+AI, as others have already created a far better overview than I could
+ever create - see
+e.g.~\href{https://toloka.ai/blog/history-of-generative-ai/}{this link},
+\href{https://en.wikipedia.org/wiki/Generative_artificial_intelligence}{Wikipedia}
+or
+\href{https://bernardmarr.com/a-simple-guide-to-the-history-of-generative-ai/}{this
+overview}. Bottom line, ever since the development of
+\href{https://github.com/features/copilot}{GitHub Copilot} in 2021, the
+field of generative AI has rapidly become accessible to a broader
+audience. This development has a direct impact on higher education, as
+the straightforward access for student and teacher populations to
+generative AI has the potential to impact education, research and
+policy. Developments in generative AI also have the means to create new
+opportunities and - unfortunately - new divides. Therefore I have
+created this archive to keep track of the developments in generative AI
+in higher education and to motivate myself to act and respond in a fair
+way to new developments.
+
+\section{Aim}\label{aim}
+
+The aim of this archive is not to be exhaustive, but rather to provide a
+structure whereby to categorize past, new and ongoing developments.
+
+\section{Contributions}\label{contributions}
+
+I very much welcome contributions to this page. If you have come across
+a development, policy or study that is not yet included in this archive,
+please let me know, or rather, add it yourself. Follow the below outline
+to see how easy it is to propose changes and additions to this archive.
+
+\begin{figure}[H]
+
+{\centering \includegraphics{img/contribute.gif}
+
+}
+
+\caption{Example change commit and pull request}
+
+\end{figure}%
+
+I do ask you, however, to not generate your contributed text with AI. I
+prefer this resources to remain a human-curated archive.
+
+\bookmarksetup{startatroot}
+
+\chapter{How genAI tools work}\label{how-genai-tools-work}
+
+Most of us are familiar with the user side of tools like chatGPT, Gemini
+and GitHub Copilot. But before we continue, it is also important to have
+an idea about the underlying models. In this section, I will give a very
+short introduction about how chatAI tools come about the response given.
+
+\section{Machine learning basics}\label{machine-learning-basics}
+
+Machine learning enables computers to learn from data, identify
+patterns, and make decisions with varying levels of human intervention.
+For understanding this chapter, it is important to realize that some
+machine learning methods require quite strict human intervention or data
+pre-processing, while other methods can operate unsupervised and without
+stringent data pre-processing.
+
+It is also important to understand that machine learning methods often
+work by means of \emph{training}. An algorithm is trained to perform a
+single task or set of tasks. For example, a machine learning model can
+be trained on thousands of images to differentiate between photos of
+children or adults. Much like our own brain would learn to differentiate
+between such images.
+
+The domain of machine learning that focuses on such human brain-like
+\emph{deep learning} strategies is called \emph{neural networks} (NNs).
+NNs consist of layers of units (so called neurons) that process input
+data. NNs are not specifically programmed to perform tasks, yet NNs
+process data in such a way that they autonomously learn to perform those
+tasks.
+
+\section{Transformers}\label{transformers}
+
+\textbf{Transformers} (Vaswani et al. 2017) are a type of neural network
+that have advanced deep learning, particularly in the domain of
+\emph{natural language processing}. Instead of modeling words one after
+another, transformers can look at whole sentences or paragraphs at once
+and take the context of text into account. It is not hard to imagine
+that contextual \emph{understanding} allows for better learning and more
+flexible applications.
+
+Generative AI tools, such as Gemini, chatGPT or GitHub Copilot are
+applications of transformers. These tools have been trained on extremely
+large amounts of data (mostly text) and have learned from the structure,
+meaning and nuances of the language. After training, these tools can
+generate new text that both coherent an contextually relevant. All this
+generation is based on the patterns the transformers learned during
+training.
+
+There is a bit more nuance to the above two paragraph than I would
+initially have you believe. First, there are two mechanisms crucial in a
+transformer's ability to understand the nuance and context of language:
+attention and self-attention. In a nutshell, these mechanisms allow the
+transformer to weigh the importance of words in the context, which
+creates a measure of the immediate and broader relations of each word.
+Second, the training step is far more complex than described above.
+There is a lot of fine-tuning involved. Additionally, for different
+purposes like programming code generation or visual image recognition,
+models must undergo additional training or finetuning with specific data
+sets. This makes the training of contemporary AI tools a time-consuming
+and human-curated task.
+
+Contemporary AI tools can do much more than predict the next most likely
+word based on a given prompt or initial input. Modern AI tools can
+interpret images, read and solve mathematical formulae, start up virtual
+machines to autonomously evaluate self-generated computer code, and much
+more. Given the relatively recent introduction of transformers, this
+seamless integration of applications, skills and tasks is an impressive
+development.
+
+\bookmarksetup{startatroot}
+
+\chapter{Impact}\label{impact}
+
+There are numerous ways that the increasing use and implementations of
+AI tools may impact our lives. In this section I will discuss some forms
+of direct and indirect impact of AI tools on human life.
+
+\section{Environmental impact}\label{environmental-impact}
+
+Many users are unaware of the impact that contemporary AI tools may have
+on the environment. Together with e.g.~cloud storage and e-mail traffic,
+AI tools constitute a \emph{hidden carbon footprint} that often escapes
+our awareness. While it is not as apparent as airline travel, the impact
+of using AI tools may be far greater than you think and decarbonizing
+the energy usage alone is not enough to sustainably implement AI tools
+in our everyday life (Berthelot et al. 2024). It is estimated that using
+generative AI Tools currently accounts for up to 25 times the energy
+emissions that are generated from training the models (Chien et al.
+2023). While the environmental impact can ultimately be significantly
+lowered by moving from server-based generative AI to on-chip generative
+AI, there will always be a cost of using AI tools. Many people have
+thought about how AI will impact human life and Hollywood has monetized
+its threat to human existence. Not many may have realized that our lives
+may currently be at risk through AI-induced global warming.
+
+\section{Social impact}\label{social-impact}
+
+In recent years many idealistic promises have been made about the
+potential of AI to improve human life. Widespread access for everyone to
+AI models and tools has been said to contribute to equality, allowing
+everybody to access high quality information and interact witht the same
+technology. This widespread access, however, also allows for non-just
+purposes. AI tools are neutral and can be used to harm people and spread
+misinformation. AI tools can be used to manipulate people or to
+discriminate against people, evidence of which has been found in the use
+of AI tools in hiring processes and the potential for election
+manipulation (\textbf{REFS?} needed).
+
+\begin{itemize}
+\tightlist
+\item
+  TODO: add (Baldassarre et al. 2023)
+\end{itemize}
+
+\section{Human rights and labor
+rights}\label{human-rights-and-labor-rights}
+
+There is
+\href{https://time.com/6247678/openai-chatgpt-kenya-workers/}{evidence}
+that the workers who curate these models are treated unfairly or even
+inhumanely by their employers. This
+\href{https://blogs.lse.ac.uk/businessreview/2024/03/25/madhumita-murgia-ai-can-do-harm-when-people-dont-have-a-voice/}{interview}
+also paints a good picture of how and where AI work can harm people.
+
+\bookmarksetup{startatroot}
+
+\chapter{Legal implications}\label{sec-legal}
+
+\section{How to read this chapter}\label{how-to-read-this-chapter}
+
+\section{Data protection and privacy}\label{data-protection-and-privacy}
+
+\section{Intellectual property}\label{intellectual-property}
+
+See
+e.g.~\href{https://www.gerkovink.com/openeducationbook/licensing.html}{this
+book chapter} from Vink, Veen, and Oberman (2024)
+
+\section{Copyright}\label{copyright}
+
+See
+e.g.~\href{https://www.gerkovink.com/openeducationbook/licensing.html}{this
+book chapter} from Vink, Veen, and Oberman (2024)
+
+\section{Europe's AI act}\label{europes-ai-act}
+
+\section{Ethics}\label{ethics}
+
+Perhaps this should be its own chapter and not a subheading under
+Chapter~\ref{sec-legal}.
+
+\bookmarksetup{startatroot}
+
+\chapter{Policy}\label{policy}
+
+Developments in generative AI are fast: what seems to not work today,
+may be already implemented next week. For this reason it is important to
+realize that generating policy on the basis of students and teachers are
+or are not allowed to do with generative AI may be vulnerable to future
+developments. Such policy, while structured today, may prove not to be
+robust with respect to the future.
+
+It is better to base policy that guides the use of generative AI based
+on ubiquitous scientific values, such as fairness, openness,
+transparancy, accountability and responsibility.
+
+\section{Durably embedding generative AI in
+academia}\label{durably-embedding-generative-ai-in-academia}
+
+The following policy suggestion ensures that generative AI is
+implemented in an academic setting by means of human moderation. It
+places the user in control of responsible interaction with the AI tool
+and warrants conscientious further implementation of the output
+generated by the AI tool. Following these suggestions minimizes the
+opportunity for unethical and unfair use of AI tools in academia.
+
+\textbf{\emph{Suggestion 1:} Minimize the use of AI tools} as they are
+(currently) environmentally unfriendly
+
+Many users are unaware of the impact that contemporary AI tools may have
+on the environment. Together with e.g.~cloud storage and e-mail traffic,
+AI tools constitute a \emph{hidden carbon footprint} that often escapes
+our awareness. While it is not as apparent as airline travel, the impact
+of using AI tools may be far greater than you think (Berthelot et al.
+2024). While the environmental impact may be significantly lowered by
+on-chip generative AI , there will always be a cost of using AI tools.
+Many people have thought about how AI will impact human life and
+Hollywood has monetized its threat to human existence. Not many may have
+realized that our lives may be at risk through AI-induced global
+warming.
+
+\textbf{\emph{Suggestion 2:} Don't input confidential or personal
+information}
+
+This may seem intuitive, but the ability of AI tools to mimic human-like
+interaction may lull the user into the situation of disclosing more
+information than allowed. It is not hard to imagine a scenario where a
+well-engineered prompt would allow for the identification of the person
+who interacts with the AI tool, or worse - other people that are not
+aware of their personal ideas or identifying information being
+disclosed. While the AI tool itself seems anonymous and may not be
+sentient, any user should be aware of potential information or attribute
+disclosure.
+
+\textbf{\emph{Suggestion 3:} Don't input information that violates IP or
+copyright}
+
+When interacting with AI tools, users should protect intellectual
+property rights and copyright. When submitting prompts to AI tools it is
+paramount to ensure that
+
+\begin{itemize}
+\tightlist
+\item
+  you are allowed to share the information in the prompt or have
+  explicit permission
+\item
+  you are not infringing on any right associated with the information in
+  the prompt
+\end{itemize}
+
+\textbf{\emph{Suggestion 4:} Don't violate IP with using output from the
+tool}
+
+Likewise, it is paramount to realize that no intellectual property or
+copyright may be infringed with using the output of the AI tool. The
+training of the AI tool happened on a large set of data; some of that
+data may have been used illegitimately. By using AI generated output you
+may plagiarize existing work or otherwise infringe on intellectual
+property rights.
+
+This is a tricky scenario, as the nontransparent training of AI tools
+makes it challenging to prove that no IP is infringed with the realized
+output. Given that the other suggestions are not violated, however, one
+could argue that embedding AI tools in a normal scientific knowledge
+discovery scenario would minimize the change of any infringement. Such a
+route would result in a process where information from multiple sources
+is processed and curated by an actual human.
+
+\textbf{\emph{Suggestion 5:} Confirm the output accuracy}
+
+Never put all your eggs in one basket. AI tools have demonstrated to
+yield inaccurate, incomplete or false information. This can happen when
+the AI tool \emph{perceives} patterns or objects that are nonexistent,
+resulting in nonsensical or inaccurate output, often referred to as
+\textbf{hallucinations} (Ji et al. 2023; Alkaissi and McFarlane 2023;
+Athaluri et al. 2023), although some resistance against that term has
+emerged (Østergaard and Nielbo 2023). It is important to always use
+multiple sources to verify any bit of information. As a user of AI tools
+you should accept that only you are responsible for using, interpreting
+and curating AI-generated output.
+
+\textbf{\emph{Suggestion 6:} Check the tool output for bias}
+
+AI tools are prone to biased output due to the language and bias that
+are incorporated int he training resource Bockting et al. (2023). AI
+tools may therefore produce output that may impact real humans and their
+rights, identifications, characteristics or status. Be careful not to
+input promts that are likely to generate biased output and do not use
+AI-generated output if potential bias may occur.
+
+\textbf{\emph{Suggestion 7:} Don't do bad or illegal things with AI
+tools}
+
+Never use AI tools for illegal purposes or malicious intent, such as
+creating viruses, hacking networks or any form of computer crime or
+other crime.
+
+\textbf{\emph{Suggestion 8:} Disclose the use of AI tools in your work}
+Always disclose the use of AI tools, also when the work you generated is
+derived from AI-generated output. Always be transparent about your work.
+
+\textbf{\emph{Suggestion 9:} Ask the tool not to use input for training}
+As a safety precaution it may be good practice to prevent further
+training of the models from input data. This avoids risks of
+accidentally disclosing information that should not have been send as
+input.
+
+\textbf{\emph{Suggestion 10:} Open the content you produce by using AI
+tools} as much as possible with permissive licenses. Opening up your
+research is a good practice in general.
+
+\bookmarksetup{startatroot}
+
+\chapter{AI skills}\label{ai-skills}
+
+\bookmarksetup{startatroot}
+
+\chapter{For students}\label{for-students}
+
+For now, see Chapter~\ref{sec-links}.
+
+\bookmarksetup{startatroot}
+
+\chapter{For teachers}\label{for-teachers}
+
+For now, see Chapter~\ref{sec-links}.
+
+\bookmarksetup{startatroot}
+
+\chapter{Grading and Assessment}\label{grading-and-assessment}
+
+For now, see Chapter~\ref{sec-links}.
+
+\bookmarksetup{startatroot}
+
+\chapter*{References}\label{references}
+\addcontentsline{toc}{chapter}{References}
+
+\markboth{References}{References}
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-alkaissi2023artificial}
+Alkaissi, Hussam, and Samy I McFarlane. 2023. {``Artificial
+Hallucinations in ChatGPT: Implications in Scientific Writing.''}
+\emph{Cureus} 15 (2).
+
+\bibitem[\citeproctext]{ref-athaluri2023exploring}
+Athaluri, Sai Anirudh, Sandeep Varma Manthena, VSR Krishna Manoj
+Kesapragada, Vineel Yarlagadda, Tirth Dave, and Rama Tulasi Siri
+Duddumpudi. 2023. {``Exploring the Boundaries of Reality: Investigating
+the Phenomenon of Artificial Intelligence Hallucination in Scientific
+Writing Through ChatGPT References.''} \emph{Cureus} 15 (4).
+
+\bibitem[\citeproctext]{ref-baldassarre2023}
+Baldassarre, Maria Teresa, Danilo Caivano, Berenice Fernandez Nieto,
+Domenico Gigante, and Azzurra Ragone. 2023. {``The Social Impact of
+Generative AI: An Analysis on ChatGPT.''} In \emph{Proceedings of the
+2023 ACM Conference on Information Technology for Social Good}, 363--73.
+GoodIT '23. New York, NY, USA: Association for Computing Machinery.
+\url{https://doi.org/10.1145/3582515.3609555}.
+
+\bibitem[\citeproctext]{ref-berthelot2023}
+Berthelot, Adrien, Eddy Caron, Mathilde Jay, and Laurent Lefèvre. 2024.
+{``{Estimating the environmental impact of Generative-AI services using
+an LCA-based methodology}.''} In \emph{{CIRP LCE 2024 - 31st Conference
+on Life Cycle Engineering}}, 1--10. Turin, Italy.
+\url{https://inria.hal.science/hal-04346102}.
+
+\bibitem[\citeproctext]{ref-bockting2023}
+Bockting, Claudi, Eva A Dis, Robert Rooij, Willem Zuidema, and Johan
+Bollen. 2023. {``Living Guidelines for Generative AI --- Why Scientists
+Must Oversee Its Use.''} \emph{Nature} 622 (October): 693--96.
+\url{https://doi.org/10.1038/d41586-023-03266-1}.
+
+\bibitem[\citeproctext]{ref-chien2023}
+Chien, Andrew A, Liuzixuan Lin, Hai Nguyen, Varsha Rao, Tristan Sharma,
+and Rajini Wijayawardana. 2023. {``Reducing the Carbon Impact of
+Generative AI Inference (Today and in 2035).''} In \emph{Proceedings of
+the 2nd Workshop on Sustainable Computer Systems}. HotCarbon '23. New
+York, NY, USA: Association for Computing Machinery.
+\url{https://doi.org/10.1145/3604930.3605705}.
+
+\bibitem[\citeproctext]{ref-duin2021writing}
+Duin, Ann Hill, and Isabel Pedersen. 2021. \emph{Writing Futures:
+Collaborative, Algorithmic, Autonomous}. Springer.
+
+\bibitem[\citeproctext]{ref-ziwei}
+Ji, Ziwei, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko
+Ishii, Ye Jin Bang, Andrea Madotto, and Pascale Fung. 2023. {``Survey of
+Hallucination in Natural Language Generation.''} \emph{ACM Comput.
+Surv.} 55 (12). \url{https://doi.org/10.1145/3571730}.
+
+\bibitem[\citeproctext]{ref-Ostergaard2023}
+Østergaard, Søren Dinesen, and Kristoffer Laigaard Nielbo. 2023.
+{``{False Responses From Artificial Intelligence Models Are Not
+Hallucinations}.''} \emph{Schizophrenia Bulletin} 49 (5): 1105--7.
+\url{https://doi.org/10.1093/schbul/sbad068}.
+
+\bibitem[\citeproctext]{ref-turing}
+Turing, Alan. 2004. {``{Lecture on the Automatic Computing Engine
+(1947)}.''} In \emph{{The Essential Turing}}. Oxford University Press.
+\url{https://doi.org/10.1093/oso/9780198250791.003.0015}.
+
+\bibitem[\citeproctext]{ref-vaswani}
+Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion
+Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017.
+{``Attention Is All You Need.''} \emph{Advances in Neural Information
+Processing Systems} 30.
+
+\bibitem[\citeproctext]{ref-vink2024open}
+Vink, Gerko, Duco Veen, and Hanne Oberman. 2024.
+{``{gerkovink/openeducationbook: Open Education in Higher Education}.''}
+Zenodo. \url{https://doi.org/10.5281/zenodo.10594358}.
+
+\bibitem[\citeproctext]{ref-eliza}
+Weizenbaum, Joseph. 1966. {``ELIZA---a Computer Program for the Study of
+Natural Language Communication Between Man and Machine.''} \emph{Commun.
+ACM} 9 (1): 36--45. \url{https://doi.org/10.1145/365153.365168}.
+
+\end{CSLReferences}
+
+\bookmarksetup{startatroot}
+
+\chapter{Collection of links}\label{sec-links}
+
+This is where I collect all the links that I come across. You can see
+this as a work in progress. Some links will become part of the previous
+chapters, while other links will remain here. Please regard this as a
+roughly structured library of relevant resources.
+
+\section{Responsibility and
+conscience}\label{responsibility-and-conscience}
+
+\begin{itemize}
+\tightlist
+\item
+  There is
+  \href{https://time.com/6247678/openai-chatgpt-kenya-workers/}{evidence}
+  that the workers who curate these models are treated unfairly or even
+  inhumanely by their employers. This
+  \href{https://blogs.lse.ac.uk/businessreview/2024/03/25/madhumita-murgia-ai-can-do-harm-when-people-dont-have-a-voice/}{interview
+  from March 25} also outlines how and where AI moderation can harm the
+  people who don't have a voice.
+\end{itemize}
+
+\section{Assessment given the existence of AI
+tools}\label{assessment-given-the-existence-of-ai-tools}
+
+Some links (in no particular order) that cover relevant strategies on
+how to assess student work, given the existence of AI tools.
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/designing-assessments-ai-enabled-world}{UCL:
+  Designing assessments in and AI enabled world}
+\item
+  \href{https://unf.pressbooks.pub/chatgptinhighereducation/chapter/chatgpt-proof-your-course/}{UNF:
+  ChatGPT-proof your course}
+\item
+  \href{https://www.uu.nl/en/education/educational-development-training/knowledge-dossier/the-influence-of-chatgpt-on-assessment-can-you-still-use-take-home-exams-and-essays}{UU:
+  Can you still use take-home exams and essays?}
+\item
+  \href{https://link.springer.com/article/10.1007/s10639-023-12405-0}{Bower,
+  M., Torrington, J., Lai, J.W.M. et al.~(2024) How should we change
+  teaching and assessment in response to increasingly powerful
+  generative Artificial Intelligence? Outcomes of the ChatGPT teacher
+  survey. Educ Inf Technol.}
+\item
+  \href{https://www.dropbox.com/scl/fi/a0knbe4l5vdmpr9l2xsox/AI-resilience-tool-v3.0.png?rlkey=ih87d4jh5lqu9l69ygr44s2se&dl=0}{TILAPIA
+  tool by Phil Newton \& ChatGPT}
+\end{itemize}
+
+\subsection{Scientific publications}\label{scientific-publications}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.sciencedirect.com/science/article/pii/S2666920X24000109?dgcid=raven_sd_aip_email}{Do
+  teachers spot AI?}
+\end{itemize}
+
+\section{Policy}\label{policy-1}
+
+\subsection{Guidelines for students}\label{guidelines-for-students}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://students.uu.nl/en/gsls/practical-information/generative-ai-guidelines}{UMCU:
+  Guidelines for GSLS students}
+\item
+  \href{https://students.uu.nl/sites/default/files/GSLS\%20GenAI\%20Research\%20Guidelines\%20for\%20Students\%20and\%20SupervisorsGSLS\%20GenAI\%20Research\%20Guidelines.pdf}{UMCU:
+  GenAI guidelines for research projects for students and supervisors}
+\end{itemize}
+
+\subsection{Guidelines for teachers}\label{guidelines-for-teachers}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://teachersguidegsls.nl/teaching-courses/generative-ai-guidelines/}{UMCU:
+  Guidelines for Incorporating Generative AI (GenAI) in GSLS Education}
+\end{itemize}
+
+\subsection{Academic policies}\label{academic-policies}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy}{Columbia
+  University}
+\end{itemize}
+
+\section{AI skills}\label{ai-skills-1}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://ulearning.uu.nl/enrol/index.php?id=1462}{UMCU: AI skills
+  tutorial for GSLS master students}
+\item
+  \href{https://ulearning.uu.nl/enrol/index.php?id=1598}{UMCU: AI skills
+  tutorial for GSLS master teachers}
+\end{itemize}
+
+\section{\#\# AI for grading student
+work}\label{ai-for-grading-student-work}
+
+
+
+\end{document}
