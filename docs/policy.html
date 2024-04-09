@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -232,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong><em>Suggestion 5:</em> Confirm the output accuracy</strong></p>
 <p>Never put your eggs in one basket. AI tools have demonstrated to yield inaccurate, incomplete or false information <span class="citation" data-cites="REFS">(<a href="references.html#ref-REFS" role="doc-biblioref"><strong>REFS?</strong></a>)</span>. Always use multiple sources to verify any source of information and accept that you are responsible for using, interpreting and curating AI-generated output.</p>
 <p><strong><em>Suggestion 6:</em> Check the tool output for bias</strong></p>
-<p>AI tools may produce output that may impact real humans and their rights, identifications, characteristics or status. Be careful not to input promts that are likely to generate biased output and do not use AI-generated output if potential bias may occur.</p>
+<p>AI tools are prone to biased output due to the language and bias that are incorporated int he training resource <span class="citation" data-cites="duin2021writing">Bockting et al. (<a href="references.html#ref-bockting2023" role="doc-biblioref">2023</a>)</span>. AI tools may therefore produce output that may impact real humans and their rights, identifications, characteristics or status. Be careful not to input promts that are likely to generate biased output and do not use AI-generated output if potential bias may occur.</p>
 <p><strong><em>Suggestion 7:</em> Don’t do bad or illegal things with AI tools</strong></p>
 <p>Never use AI tools for illegal purposes or malicious intent, such as creating viruses, hacking networks or any form of computer crime or other crime.</p>
 <p><strong><em>Suggestion 8:</em> Disclose the use of AI tools in your work</strong> Always disclose the use of AI tools, also when the work you generated is derived from AI-generated output. Always be transparent about your work.</p>
@@ -241,6 +261,14 @@ ul.task-list li input[type="checkbox"] {
 <p>Opening up your research is a good practice in general.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-bockting2023" class="csl-entry" role="listitem">
+Bockting, Claudi, Eva A Dis, Robert Rooij, Willem Zuidema, and Johan Bollen. 2023. <span>“Living Guidelines for Generative AI — Why Scientists Must Oversee Its Use.”</span> <em>Nature</em> 622 (October): 693–96. <a href="https://doi.org/10.1038/d41586-023-03266-1">https://doi.org/10.1038/d41586-023-03266-1</a>.
+</div>
+<div id="ref-duin2021writing" class="csl-entry" role="listitem">
+Duin, Ann Hill, and Isabel Pedersen. 2021. <em>Writing Futures: Collaborative, Algorithmic, Autonomous</em>. Springer.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
