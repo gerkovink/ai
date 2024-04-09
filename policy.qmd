@@ -8,7 +8,7 @@ The following policy suggestion ensures that generative AI is implemented in an 
 
 **_Suggestion 1:_ Minimize the use of AI tools** as they are (currently) environmentally unfriendly
 
-Many users are unaware of the impact that contemporary AI tools may have on the environment. Together with e.g. cloud storage and e-mail traffic, AI tools constitute a *hidden carbon footprint* that often escapes our awareness. While it is not as apparent as airline travel, the impact of using AI tools may be far greater than you think [@berthelot2023; ]. While the environmental impact may be significantly lowered by on-chip generative AI , there will always be a cost of using AI tools. Many people have thought about how AI will impact human life and Hollywood has monetized its threat to human existence. Not many may have realized that our lives may be at risk through AI-induced global warming. 
+Many users are unaware of the impact that contemporary AI tools may have on the environment. Together with e.g. cloud storage and e-mail traffic, AI tools constitute a *hidden carbon footprint* that often escapes our awareness. While it is not as apparent as airline travel, the impact of using AI tools may be far greater than you think [@berthelot2023]. While the environmental impact may be significantly lowered by on-chip generative AI , there will always be a cost of using AI tools. Many people have thought about how AI will impact human life and Hollywood has monetized its threat to human existence. Not many may have realized that our lives may be at risk through AI-induced global warming. 
 
 **_Suggestion 2:_ Don't input confidential or personal information**
 
