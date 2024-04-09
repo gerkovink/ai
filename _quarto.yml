@@ -13,6 +13,7 @@ book:
     - index.qmd
     - intro.qmd
     - models.qmd
+    - impact.qmd
     - legal.qmd
     - policy.qmd
     - skills.qmd

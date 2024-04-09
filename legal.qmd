@@ -5,8 +5,10 @@
 ## Data protection and privacy
 
 ## Intellectual property
+See e.g. [this book chapter ](https://www.gerkovink.com/openeducationbook/licensing.html) from @vink2024open
 
 ## Copyright
+See e.g. [this book chapter ](https://www.gerkovink.com/openeducationbook/licensing.html) from @vink2024open
 
 ## Europe's AI act
 
