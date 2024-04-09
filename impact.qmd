@@ -1,0 +1,14 @@
+# Impact
+There are numerous ways that the increasing use and implementations of AI tools may impact our lives. In this section I will discuss some forms of direct and indirect impact of AI tools on human life. 
+
+## Environmental impact
+Many users are unaware of the impact that contemporary AI tools may have on the environment. Together with e.g. cloud storage and e-mail traffic, AI tools constitute a *hidden carbon footprint* that often escapes our awareness. While it is not as apparent as airline travel, the impact of using AI tools may be far greater than you think and decarbonizing the energy usage alone is not enough to sustainably implement AI tools in our everyday life [@berthelot2023]. It is estimated that using generative AI Tools currently accounts for up to 25 times the energy emissions that are generated from training the models [@chien2023]. While the environmental impact can ultimately be significantly lowered by moving from server-based generative AI to on-chip generative AI, there will always be a cost of using AI tools. Many people have thought about how AI will impact human life and Hollywood has monetized its threat to human existence. Not many may have realized that our lives may currently be at risk through AI-induced global warming.
+
+## Social impact
+In recent years many idealistic promises have been made about the potential of AI to improve human life. Widespread access for everyone to AI models and tools has been said to contribute to equality, allowing everybody to access high quality information and interact witht the same technology. This widespread access, however, also allows for non-just purposes. AI tools are neutral and can be used to harm people and spread misinformation. AI tools can be used to manipulate people or to discriminate against people, evidence of which has been found in the use of AI tools in hiring processes and the potential for election manipulation [@REFS needed]. 
+
+- TODO: add [@baldassarre2023]
+
+## Human rights and labor rights
+There is [evidence](https://time.com/6247678/openai-chatgpt-kenya-workers/) that the workers who curate these models are treated unfairly or even inhumanely by their employers. This [interview](https://blogs.lse.ac.uk/businessreview/2024/03/25/madhumita-murgia-ai-can-do-harm-when-people-dont-have-a-voice/) also paints a good picture of how and where AI work can harm people.
+
