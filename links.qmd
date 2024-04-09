@@ -25,8 +25,12 @@ Some links (in no particular order) that cover relevant strategies on how to ass
 ### Guidelines for teachers
 - [UMCU: Guidelines for Incorporating Generative AI (GenAI) in GSLS Education](https://teachersguidegsls.nl/teaching-courses/generative-ai-guidelines/)
 
-### Academic policies
+### Policy
+- [UNESCO: Guidance for generative AI in education and research](https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research)
+- [WEF: AI Guidance for responsible use in education](https://www.weforum.org/agenda/2024/01/ai-guidance-school-responsible-use-in-education/)
 - [Columbia University](https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy)
+- [Duke University](https://learninginnovation.duke.edu/ai-and-teaching-at-duke-2/artificial-intelligence-policies-in-syllabi-guidelines-and-considerations/)
+- [@chan2023policy]
 
 ## AI skills
 - [UMCU: AI skills tutorial for GSLS master students](https://ulearning.uu.nl/enrol/index.php?id=1462)
@@ -34,5 +38,6 @@ Some links (in no particular order) that cover relevant strategies on how to ass
 
 
 ## AI for grading student work
-- 
+- [My presentation on the use and misuse of generative AI in academic education](https://www.gerkovink.com/psy/#/title-slide)
+- @kumar2023faculty
 
