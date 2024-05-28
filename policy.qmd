@@ -33,7 +33,7 @@ Never put all your eggs in one basket. AI tools have demonstrated to yield inacc
 
 **_Suggestion 6:_ Check the tool output for bias**
 
-AI tools are prone to biased output due to the language and bias that are incorporated int he training resource [@duin2021writing, @bockting2023]. AI tools may therefore produce output that may impact real humans and their rights, identifications, characteristics or status. Be careful not to input promts that are likely to generate biased output and do not use AI-generated output if potential bias may occur.
+AI tools are prone to biased output due to the language and bias that are incorporated in the training resource [@duin2021writing; @bockting2023]. AI tools may therefore produce output that may impact real humans and their rights, identifications, characteristics or status. Be careful not to input promts that are likely to generate biased output and do not use AI-generated output if potential bias may occur.
 
 **_Suggestion 7:_ Don't do bad or illegal things with AI tools**
 
